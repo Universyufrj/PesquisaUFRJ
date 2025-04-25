@@ -22,7 +22,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
     const email = document.getElementById('signup-email').value;
     const password = document.getElementById('signup-password').value;
 
-    emailjs.send(service_9gwivaw","template_1b5eb6a, {
+    emailjs.send("service_9gwivaw","template_1b5eb6a", {
         name: name,
         email: email,
         password: password
