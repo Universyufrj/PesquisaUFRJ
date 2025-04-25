@@ -1,5 +1,5 @@
 // Inicializa o EmailJS
-emailjs.init('4RhYGN_eOxGomB1dY');
+emailjs.init('TKuZ7CAuQh-zObb_5');
 
 const container = document.getElementById('container');
 const registerBtn = document.getElementById('register');
@@ -22,7 +22,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
     const email = document.getElementById('signup-email').value;
     const password = document.getElementById('signup-password').value;
 
-    emailjs.send('service_ltzh3pv', 'template_q5hzjq5', {
+    emailjs.send(service_9gwivaw","template_1b5eb6a, {
         name: name,
         email: email,
         password: password
